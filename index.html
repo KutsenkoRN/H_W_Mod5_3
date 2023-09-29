@@ -21,7 +21,7 @@
               Array.from(pagination.children).forEach((li) =>
                 li.classList.remove("active")
               );
-              pagination.children[currentPage - 1].classList.add("active");
+              pagination.children[currentPage].classList.add("active");
     
               if (currentPage === 1) {
                 previousBtn.classList.add("disabled");
@@ -124,7 +124,7 @@
         </nav>
       </div>
         
-      <div class="container mt-3">
+     <div class="container mt-3">
         <ul class="nav nav-tabs mb-3">
           <li class="nav-item">
             <a
@@ -145,133 +145,134 @@
           </li>
         </ul>
         <div class="tab-content">
-          <div class="tab-pane fade show active" id="tab-home">
-            <div class="row" id="card-row">
-              <div class="col">
-                <div class="card">
-                  <img src="https://reqres.in/img/faces/1-image.jpg" class="card-img-top" alt="avatar">
-                  <div class="card-body">
-                    <h3 class="card-title">George Bluth</h3>
-                    <a href="mailto:george.bluth@reqres.in" class="card-link">george.bluth@reqres.in</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img src="https://reqres.in/img/faces/2-image.jpg" class="card-img-top" alt="avatar">
-                  <div class="card-body">
-                    <h3 class="card-title">Janet Weaver</h3>
-                    <a href="mailto:janet.weaver@reqres.in" class="card-link">janet.weaver@reqres.in</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img src="https://reqres.in/img/faces/3-image.jpg" class="card-img-top" alt="avatar">
-                  <div class="card-body">
-                    <h3 class="card-title">Emma Wong</h3>
-                    <a href="mailto:emma.wong@reqres.in" class="card-link">emma.wong@reqres.in</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img src="https://reqres.in/img/faces/4-image.jpg" class="card-img-top" alt="avatar">
-                  <div class="card-body">
-                    <h3 class="card-title">Eve Holt</h3>
-                    <a href="mailto:eve.holt@reqres.in" class="card-link">eve.holt@reqres.in</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img src="https://reqres.in/img/faces/5-image.jpg" class="card-img-top" alt="avatar">
-                  <div class="card-body">
-                    <h3 class="card-title">Charles Morris</h3>
-                    <a href="mailto:charles.morris@reqres.in" class="card-link">charles.morris@reqres.in</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img src="https://reqres.in/img/faces/6-image.jpg" class="card-img-top" alt="avatar">
-                  <div class="card-body">
-                    <h3 class="card-title">Tracey Ramos</h3>
-                    <a href="mailto:tracey.ramos@reqres.in" class="card-link">tracey.ramos@reqres.in</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img src="https://reqres.in/img/faces/7-image.jpg" class="card-img-top" alt="avatar">
-                  <div class="card-body">
-                    <h3 class="card-title">Michael Lawson</h3>
-                    <a href="mailto:michael.lawson@reqres.in" class="card-link">michael.lawson@reqres.in</a>
-                  </div>
-                </div>
-              </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="https://reqres.in/img/faces/8-image.jpg" class="card-img-top" alt="avatar">
-                    <div class="card-body">
-                      <h3 class="card-title">Lindsay Ferguson</h3>
-                      <a href="mailto:lindsay.ferguson@reqres.in" class="card-link">lindsay.ferguson@reqres.in</a>
+            <div class="tab-pane fade show active" id="tab-home">
+                <div class="row" id="card-row">
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://reqres.in/img/faces/1-image.jpg" class="card-img-top" alt="avatar">
+                            <div class="card-body">
+                                <h3 class="card-title">George Bluth</h3>
+                                <a href="mailto:george.bluth@reqres.in" class="card-link">george.bluth@reqres.in</a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="https://reqres.in/img/faces/9-image.jpg" class="card-img-top" alt="avatar">
-                    <div class="card-body">
-                      <h3 class="card-title">Tobias Funke</h3>
-                      <a href="mailto:tobias.funke@reqres.in" class="card-link">tobias.funke@reqres.in</a>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://reqres.in/img/faces/2-image.jpg" class="card-img-top" alt="avatar">
+                            <div class="card-body">
+                                <h3 class="card-title">Janet Weaver</h3>
+                                <a href="mailto:janet.weaver@reqres.in" class="card-link">janet.weaver@reqres.in</a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="https://reqres.in/img/faces/10-image.jpg" class="card-img-top" alt="avatar">
-                    <div class="card-body">
-                      <h3 class="card-title">Byron Fields</h3>
-                      <a href="mailto:byron.fields@reqres.in" class="card-link">byron.fields@reqres.in</a>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://reqres.in/img/faces/3-image.jpg" class="card-img-top" alt="avatar">
+                            <div class="card-body">
+                                <h3 class="card-title">Emma Wong</h3>
+                                <a href="mailto:emma.wong@reqres.in" class="card-link">emma.wong@reqres.in</a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="https://reqres.in/img/faces/11-image.jpg" class="card-img-top" alt="avatar">
-                    <div class="card-body">
-                      <h3 class="card-title">George Edwards</h3>
-                      <a href="mailto:george.edwards@reqres.in" class="card-link">george.edwards@reqres.in</a>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://reqres.in/img/faces/4-image.jpg" class="card-img-top" alt="avatar">
+                            <div class="card-body">
+                                <h3 class="card-title">Eve Holt</h3>
+                                <a href="mailto:eve.holt@reqres.in" class="card-link">eve.holt@reqres.in</a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="https://reqres.in/img/faces/12-image.jpg" class="card-img-top" alt="avatar">
-                    <div class="card-body">
-                      <h3 class="card-title">Rachel Howell</h3>
-                      <a href="mailto:Rachel Howell" class="card-link">rachel.howell@reqres.in</a>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://reqres.in/img/faces/5-image.jpg" class="card-img-top" alt="avatar">
+                            <div class="card-body">
+                                <h3 class="card-title">Charles Morris</h3>
+                                <a href="mailto:charles.morris@reqres.in" class="card-link">charles.morris@reqres.in</a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://reqres.in/img/faces/6-image.jpg" class="card-img-top" alt="avatar">
+                            <div class="card-body">
+                                <h3 class="card-title">Tracey Ramos</h3>
+                                <a href="mailto:tracey.ramos@reqres.in" class="card-link">tracey.ramos@reqres.in</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://reqres.in/img/faces/7-image.jpg" class="card-img-top" alt="avatar">
+                            <div class="card-body">
+                                <h3 class="card-title">Michael Lawson</h3>
+                                <a href="mailto:michael.lawson@reqres.in" class="card-link">michael.lawson@reqres.in</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://reqres.in/img/faces/8-image.jpg" class="card-img-top" alt="avatar">
+                            <div class="card-body">
+                                <h3 class="card-title">Lindsay Ferguson</h3>
+                                <a href="mailto:lindsay.ferguson@reqres.in" class="card-link">lindsay.ferguson@reqres.in</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://reqres.in/img/faces/9-image.jpg" class="card-img-top" alt="avatar">
+                            <div class="card-body">
+                                <h3 class="card-title">Tobias Funke</h3>
+                                <a href="mailto:tobias.funke@reqres.in" class="card-link">tobias.funke@reqres.in</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://reqres.in/img/faces/10-image.jpg" class="card-img-top" alt="avatar">
+                            <div class="card-body">
+                                <h3 class="card-title">Byron Fields</h3>
+                                <a href="mailto:byron.fields@reqres.in" class="card-link">byron.fields@reqres.in</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://reqres.in/img/faces/11-image.jpg" class="card-img-top" alt="avatar">
+                            <div class="card-body">
+                                <h3 class="card-title">George Edwards</h3>
+                                <a href="mailto:george.edwards@reqres.in" class="card-link">george.edwards@reqres.in</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://reqres.in/img/faces/12-image.jpg" class="card-img-top" alt="avatar">
+                            <div class="card-body">
+                                <h3 class="card-title">Rachel Howell</h3>
+                                <a href="mailto:Rachel Howell" class="card-link">rachel.howell@reqres.in</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <nav>
+                    <ul id="pages" class="pagination justify-content-center mt-3">
+                        <li class="page-item disabled" id="previous-btn">
+                            <a class="page-link" href="#" tabindex="1">Previous</a>
+                        </li>
+
+                        <li class="page-item" id="next-btn">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                    </!nav>
             </div>
 
-            <nav>
-              <ul id="pages" class="pagination justify-content-center mt-3">
-                <li class="page-item disabled" id="previous-btn">
-                  <a class="page-link" href="#" tabindex="1">Previous</a>
-                </li>
-    
-                <li class="page-item" id="next-btn">
-                  <a class="page-link" href="#">Next</a>
-                </li>
-              </ul>
-            </nav>
+          
 
             
-          </div>
+         </div>
 
           <div class="tab-pane fade" id="tab-profile">
             <form class="needs-validation">
@@ -300,5 +301,6 @@
           </div>
         </div>
       </div>
-    </body>
+    </div>
+  </body>
 </html>
